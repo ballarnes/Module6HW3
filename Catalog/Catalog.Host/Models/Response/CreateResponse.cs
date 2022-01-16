@@ -1,6 +1,6 @@
 namespace Catalog.Host.Models.Response;
 
-public class AddItemResponse<T>
+public class CreateResponse<T>
 {
     public T Id { get; set; } = default(T) !;
 }

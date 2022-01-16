@@ -1,6 +1,8 @@
+using Catalog.Host.Data.Entities;
+
 namespace Catalog.Host.Models.Requests;
 
-public class CreateProductRequest
+public class CreateItemRequest
 {
     public string Name { get; set; } = null!;
 
